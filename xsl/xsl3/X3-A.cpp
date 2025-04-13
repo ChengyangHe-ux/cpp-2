@@ -4,8 +4,8 @@ using namespace std;
 int main(){
     string s;
     cin>>s;
-    int sum=0;
-    int count=1;
+    long long sum=0;
+    long long count=1;
     for(int i=0;i<s.length()-1;i++){
         if(s[i]=='w'){
             if(s[i+1]=='a'){
