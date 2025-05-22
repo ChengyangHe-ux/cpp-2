@@ -4,7 +4,7 @@ using namespace std;
 class Date{
     int y,m,d;
 public:
-    Date(int y,int m,int d): y(y),m(m),d(d){}
+    Date(int y,int m,int d):y(y),m(m),d(d){}
     bool isLeapYear(int y){
         return (y%400==0||y%4==0&&y%100!=0);
     }
